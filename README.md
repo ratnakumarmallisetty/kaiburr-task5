@@ -140,7 +140,7 @@ Author:
 
 Mallisetty Rathna kumar
 
-B.Tech Computer Science \& Engineering — Amrita Vishwa Vidyapeetham
+B.Tech  in Computer Science \& Engineering — Amrita Vishwa Vidyapeetham
 
 (Kaiburr Assessment 2025 Candidate)
 
