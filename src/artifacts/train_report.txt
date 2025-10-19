@@ -1,0 +1,37 @@
+=== logreg ===
+accuracy: 0.8945
+f1_macro: 0.6570
+confusion_matrix:
+[[3519, 304, 8, 49], [98, 524, 1, 15], [1, 4, 2, 8], [9, 4, 0, 201]]
+classification_report:
+              precision    recall  f1-score   support
+
+           0     0.9702    0.9070    0.9375      3880
+           1     0.6268    0.8213    0.7110       638
+           2     0.1818    0.1333    0.1538        15
+           3     0.7363    0.9393    0.8255       214
+
+    accuracy                         0.8945      4747
+   macro avg     0.6288    0.7002    0.6570      4747
+weighted avg     0.9110    0.8945    0.8996      4747
+
+
+=== linear_svm ===
+accuracy: 0.9225
+f1_macro: 0.6363
+confusion_matrix:
+[[3782, 83, 0, 15], [217, 413, 0, 8], [6, 6, 0, 3], [24, 6, 0, 184]]
+classification_report:
+              precision    recall  f1-score   support
+
+           0     0.9387    0.9747    0.9564      3880
+           1     0.8130    0.6473    0.7208       638
+           2     0.0000    0.0000    0.0000        15
+           3     0.8762    0.8598    0.8679       214
+
+    accuracy                         0.9225      4747
+   macro avg     0.6570    0.6205    0.6363      4747
+weighted avg     0.9160    0.9225    0.9177      4747
+
+
+BEST_MODEL: logreg (f1_macro=0.6570)
