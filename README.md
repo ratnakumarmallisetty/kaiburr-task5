@@ -79,13 +79,11 @@ python src/predict.py --text "They keep calling about an old debt I do not owe."
 Results Summary:
 
 
-----------------------------------------------------|
-Model	              Accuracy	 Macro F1   Selected  |
-----------------------------------------------------
-Logistic Regression	0.89	  0.65	      Best        |
-----------------------------------------------------
-Linear SVM	        0.92	  0.63	       –          |
------------------------------------------------------
+| Model | Accuracy | Macro F1 | Selected |
+|:--|:--:|:--:|:--:|
+| Logistic Regression | 0.89 | 0.65 | ✅ Best |
+| Linear SVM | 0.92 | 0.63 | – |
+
 
 
 
